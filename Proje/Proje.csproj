@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2477615B-4344-43C7-BC2B-B6D925CC1156}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proje</RootNamespace>
+    <AssemblyName>Proje</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlisVeris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlisVeris.Designer.cs">
+      <DependentUpon>AlisVeris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnaAlisveris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaAlisveris.Designer.cs">
+      <DependentUpon>AnaAlisveris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.Designer.cs">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bilgilerim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bilgilerim.Designer.cs">
+      <DependentUpon>Bilgilerim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GecmisSiparislerim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GecmisSiparislerim.Designer.cs">
+      <DependentUpon>GecmisSiparislerim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KayıtOl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KayıtOl.Designer.cs">
+      <DependentUpon>KayıtOl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OdemeIslemi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OdemeIslemi.Designer.cs">
+      <DependentUpon>OdemeIslemi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="proje1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proje1DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proje1DataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proje1DataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proje1DataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proje1DataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proje1DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proje1DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proje1DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proje1DataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proje1DataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proje1DataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proje1DataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proje1DataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proje1DataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sepetim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sepetim.Designer.cs">
+      <DependentUpon>Sepetim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sikayet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sikayet.Designer.cs">
+      <DependentUpon>Sikayet.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AlisVeris.resx">
+      <DependentUpon>AlisVeris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnaAlisveris.resx">
+      <DependentUpon>AnaAlisveris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Anasayfa.resx">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bilgilerim.resx">
+      <DependentUpon>Bilgilerim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GecmisSiparislerim.resx">
+      <DependentUpon>GecmisSiparislerim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KayıtOl.resx">
+      <DependentUpon>KayıtOl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OdemeIslemi.resx">
+      <DependentUpon>OdemeIslemi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sepetim.resx">
+      <DependentUpon>Sepetim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sikayet.resx">
+      <DependentUpon>Sikayet.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="proje1DataSet.xsc">
+      <DependentUpon>proje1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet.xss">
+      <DependentUpon>proje1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet1.xsc">
+      <DependentUpon>proje1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet1.xss">
+      <DependentUpon>proje1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet10.xsc">
+      <DependentUpon>proje1DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet10.xss">
+      <DependentUpon>proje1DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet11.xsc">
+      <DependentUpon>proje1DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet11.xss">
+      <DependentUpon>proje1DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet12.xsc">
+      <DependentUpon>proje1DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet12.xss">
+      <DependentUpon>proje1DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet13.xsc">
+      <DependentUpon>proje1DataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet13.xss">
+      <DependentUpon>proje1DataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet2.xsc">
+      <DependentUpon>proje1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet2.xss">
+      <DependentUpon>proje1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet3.xsc">
+      <DependentUpon>proje1DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet3.xss">
+      <DependentUpon>proje1DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet4.xsc">
+      <DependentUpon>proje1DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet4.xss">
+      <DependentUpon>proje1DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet5.xsc">
+      <DependentUpon>proje1DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet5.xss">
+      <DependentUpon>proje1DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet6.xsc">
+      <DependentUpon>proje1DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet6.xss">
+      <DependentUpon>proje1DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet7.xsc">
+      <DependentUpon>proje1DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet7.xss">
+      <DependentUpon>proje1DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet8.xsc">
+      <DependentUpon>proje1DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet8.xss">
+      <DependentUpon>proje1DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet9.xsc">
+      <DependentUpon>proje1DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="proje1DataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proje1DataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proje1DataSet9.xss">
+      <DependentUpon>proje1DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\650662162_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ec8deb21-b547-4f0d-91f4-78f07ec60662_size390x580_quality100_cropCenter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indir %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone-13-pro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taktik-giyim-outdoor-trekking-erkek-fe-70e-b3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onu-buzgu-baglamali-indigo-bluz-yeni-giyim-lustrin-318156-72-O.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desenli-sifon-siyah-kadin-elbise-yeni-giyim-bigdart-293290-65-K.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_4.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

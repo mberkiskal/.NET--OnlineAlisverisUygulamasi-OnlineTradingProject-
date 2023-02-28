@@ -1,0 +1,40 @@
+C:\Users\User\Desktop\Proje\bin\Debug\Proje.exe.config
+C:\Users\User\Desktop\Proje\bin\Debug\Proje.exe
+C:\Users\User\Desktop\Proje\bin\Debug\Proje.pdb
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.Form1.resources
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.KayıtOl.resources
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.Properties.Resources.resources
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.exe
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.pdb
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.Anasayfa.resources
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.AlisVeris.resources
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.Bilgilerim.resources
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.GecmisSiparislerim.resources
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.Sepetim.resources
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.Sikayet.resources
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.AnaAlisveris.resources
+C:\Users\User\Desktop\Proje\obj\Debug\Proje.OdemeIslemi.resources
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\bin\Debug\Proje.exe.config
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\bin\Debug\Proje.exe
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\bin\Debug\Proje.pdb
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.AlisVeris.resources
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.AnaAlisveris.resources
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.Anasayfa.resources
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.Bilgilerim.resources
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.Form1.resources
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.GecmisSiparislerim.resources
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.KayıtOl.resources
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.OdemeIslemi.resources
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.Properties.Resources.resources
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.Sepetim.resources
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.Sikayet.resources
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.csproj.GenerateResource.cache
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.exe
+C:\Users\User\Desktop\DERS\Görsel Programlama Proje\Proje\obj\Debug\Proje.pdb
